@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0d0c13" />
+  <meta name="description" content="Namit Chougale — a first-year Electronics & Communication Engineering student exploring cybersecurity, code, and the way things work. Welcome to NC." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NC — Namit Chougale" />
+  <meta property="og:description" content="An engineering mind in the making. Exploring cybersecurity, signals, and code." />
+  <title>NC — Namit Chougale</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js');</script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-grain" aria-hidden="true"></div>
+  <div class="cursor-halo" id="cursorHalo" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="header-inner frame">
+      <a class="brand" href="#top" aria-label="NC — back to top">
+        <span class="brand-monogram" aria-hidden="true">N<span>C</span><i></i></span>
+        <span class="brand-subtitle">DIGITAL<br>PLAYGROUND</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#work"><span>01</span> Work</a>
+        <a href="#about"><span>02</span> About</a>
+        <a href="#toolkit"><span>03</span> Toolkit</a>
+        <a href="#contact"><span>04</span> Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-button" id="themeToggle" type="button" aria-label="Switch to light mode" title="Switch between dark and light mode" aria-pressed="false">
+          <span class="theme-orbit" aria-hidden="true"><svg class="moon-icon" viewBox="0 0 24 24" fill="none"><path d="M20.2 15.5A8.7 8.7 0 0 1 8.5 3.8 8.7 8.7 0 1 0 20.2 15.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><svg class="sun-icon" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42m0-14.14-1.42 1.42M6.35 17.65l-1.42 1.42" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+          <span class="theme-short">LIGHT MODE</span>
+          <span class="theme-switch-track" aria-hidden="true"><i></i></span>
+        </button>
+        <a class="header-social" href="https://github.com/N4mitNotFound" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in new tab)">GITHUB <span aria-hidden="true">↗</span></a>
+        <button class="mobile-menu-button" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open navigation"><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation" hidden>
+      <a href="#work">01 / Work</a><a href="#about">02 / About</a><a href="#toolkit">03 / Toolkit</a><a href="#contact">04 / Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero frame" aria-labelledby="heroTitle">
+      <div class="hero-left">
+        <span class="hero-corner-index" aria-hidden="true">// N.C — 001</span>
+        <div class="eyebrow hero-eyebrow"><span class="spark-dot"></span> A WORK IN PROGRESS <span class="inline-divider"></span> EDITION 001 / 2026</div>
+        <div class="hero-heading-wrap">
+          <p class="hero-preface">Hello, world. I build to understand.</p>
+          <h1 id="heroTitle" class="hero-name"><span class="name-first">NAMIT</span><span class="name-last">Chougale<span class="name-star" aria-hidden="true">✳</span></span></h1>
+          <p class="hero-deck">An engineering mind <em>in the making.</em></p>
+        </div>
+        <p class="hero-description">First-year <strong>Electronics & Communication Engineering</strong> student. Interested in cybersecurity, fascinated by how things work, and learning one experiment at a time.</p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#work">EXPLORE MY WORK <span class="button-arrow" aria-hidden="true">↗</span></a>
+          <a class="button button-text" href="#about">A LITTLE ABOUT ME <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <span><span class="meta-square" aria-hidden="true"></span> STUDENT / ECE / YEAR 01</span>
+          <span>LEARNING IN PUBLIC <span class="tiny-arrow" aria-hidden="true">↗</span></span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="code-lab" id="codeLab" aria-label="Animated code workspace illustration">
+          <div class="code-lab-top"><span><i class="code-status-dot"></i> NC / CREATIVE LAB</span><span>FIG. 001 — LIVE LOOP</span></div>
+          <div class="code-lab-stage">
+            <div class="code-dots" aria-hidden="true"></div>
+            <div class="loop-display" aria-hidden="true">
+              <div class="loop-ring ring-one"></div><div class="loop-ring ring-two"></div><div class="loop-ring ring-three"></div>
+              <span class="loop-core">∞<small>ITERATE</small></span>
+              <span class="loop-label loop-label-a">IDEA_01</span><span class="loop-label loop-label-b">BUILD_02</span>
+            </div>
+            <div class="editor-shell">
+              <div class="editor-titlebar"><div class="editor-dots" aria-hidden="true"><i></i><i></i><i></i></div><span id="editorFile">explore.py</span><span class="editor-corner">● LIVE PREVIEW</span></div>
+              <div class="code-screen"><div class="code-gutter" id="codeGutter" aria-hidden="true">01<br>02<br>03<br>04<br>05<br>06</div><pre aria-label="Animated programming example"><code id="codeStream">interests = ["code", "circuits", "security"]
+
+for topic in interests:
+    print("exploring:", topic)</code><span class="code-caret" aria-hidden="true"></span></pre></div>
+              <div class="editor-output"><span>› OUTPUT</span><span id="codeOutput" aria-live="off">exploring: code</span></div>
+            </div>
+            <div class="lab-underlay" aria-hidden="true">&lt;/&gt;&nbsp; ∞ &nbsp;{ build(); }</div>
+          </div>
+          <div class="code-lab-controls"><div class="code-lab-tabs" role="group" aria-label="Choose programming language example"><button type="button" class="code-lang active" data-lang="python" aria-pressed="true">PYTHON</button><button type="button" class="code-lang" data-lang="c" aria-pressed="false">C</button><button type="button" class="code-lang" data-lang="html" aria-pressed="false">HTML</button></div><button type="button" class="loop-toggle" id="loopToggle" aria-label="Pause code typing animation" aria-pressed="false">Ⅱ <span>PAUSE</span></button></div>
+          <div class="code-lab-footer"><span>VISUAL CODE LOOP / NOT AN EXECUTABLE CONSOLE</span><span id="loopCounter">LOOP 001 ↗</span></div>
+        </div>
+        <div class="hero-annotation" aria-hidden="true"><span class="annotation-line"></span> THINK / CODE / REPEAT</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span><span>PERSONAL PORTFOLIO / V03</span></div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>STILL LEARNING</span><b>✳</b><span>ALWAYS EXPERIMENTING</span><b>✳</b><span>BUILDING WITH CURIOSITY</span><b>✳</b><span>STILL LEARNING</span><b>✳</b><span>ALWAYS EXPERIMENTING</span><b>✳</b><span>BUILDING WITH CURIOSITY</span><b>✳</b></div></div>
+
+    <section class="section work-section frame" id="work" aria-labelledby="workTitle">
+      <div class="section-kicker reveal"><span class="section-number">01 / SELECTED WORK</span><span class="section-route">~/projects/index</span></div>
+      <div class="section-heading reveal">
+        <div><p class="overline">EVIDENCE OF CURIOSITY</p><h2 id="workTitle">Made something.<br><em>Learned something.</em></h2></div>
+        <p class="section-heading-aside">Two repositories. One security workbench, one Minecraft logic experiment in progress.</p>
+      </div>
+
+      <article class="featured-project reveal cyber-project" aria-labelledby="projectTitle">
+        <div class="project-info">
+          <div class="project-topline"><span class="pill-live"><span class="live-dot"></span> FEATURED BUILD</span><span class="project-index">PROJECT / 001</span></div>
+          <p class="project-category">SECURITY LEARNING TOOL · BROWSER-BASED</p>
+          <h3 id="projectTitle">Cyber<br><span>Toolkit<span class="project-period">.</span></span></h3>
+          <p class="project-description">A privacy-focused cybersecurity learning workbench, built around useful security concepts and local-first browser tools.</p>
+          <div class="feature-list"><div><span class="feature-number">01</span><span>URL Inspector</span><small>Understand a link's structure</small></div><div><span class="feature-number">02</span><span>SHA-256 Hash Studio</span><small>Hash files locally in the browser</small></div><div><span class="feature-number">03</span><span>Passphrase Lab</span><small>Explore passphrase principles</small></div></div>
+          <a class="project-link" href="https://github.com/N4mitNotFound/CyberToolkit" target="_blank" rel="noopener noreferrer">VIEW CYBER TOOLKIT <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="project-visual">
+          <div class="project-window" aria-label="Interactive portfolio preview of Cyber Toolkit features">
+            <div class="window-titlebar"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>cyber-toolkit / preview</span><span class="window-dash">LOCAL ●</span></div>
+            <div class="window-body">
+              <div class="window-identity"><span class="identity-icon" aria-hidden="true">⌁</span><span>CYBER<span>TOOLKIT</span><small>YOUR LOCAL SECURITY WORKBENCH</small></span></div>
+              <div class="window-tabs" role="tablist" aria-label="Cyber Toolkit preview tools">
+                <button class="preview-tab active" role="tab" aria-selected="true" aria-controls="preview-url" id="tab-url" data-panel="url" type="button">URL INSPECTOR</button>
+                <button class="preview-tab" role="tab" aria-selected="false" aria-controls="preview-hash" id="tab-hash" data-panel="hash" tabindex="-1" type="button">HASH STUDIO</button>
+                <button class="preview-tab" role="tab" aria-selected="false" aria-controls="preview-phrase" id="tab-phrase" data-panel="phrase" tabindex="-1" type="button">PASSPHRASE LAB</button>
+              </div>
+              <section class="preview-panel" id="preview-url" role="tabpanel" aria-labelledby="tab-url">
+                <p class="window-label">URL STRUCTURE / LIVE MINI-DEMO</p>
+                <div class="preview-form"><label class="sr-only" for="urlInput">URL to inspect</label><input type="text" id="urlInput" spellcheck="false" value="https://example.com/learn?mode=local" placeholder="https://example.com" /><button id="inspectUrl" type="button">INSPECT ↗</button></div>
+                <div class="url-inspection" id="urlResults" aria-live="polite"><div><span>PROTOCOL</span><strong>https:</strong></div><div><span>HOSTNAME</span><strong>example.com</strong></div><div><span>PATHNAME</span><strong>/learn</strong></div><div><span>QUERY PARAMS</span><strong>1 detected</strong></div></div>
+                <p class="window-note">Only parses the URL text. It does not visit websites or determine whether a link is safe.</p>
+              </section>
+              <section class="preview-panel" id="preview-hash" role="tabpanel" aria-labelledby="tab-hash" hidden>
+                <p class="window-label">FILE HASH / LOCAL MINI-DEMO</p>
+                <label for="hashInput" class="file-drop"><span aria-hidden="true">⊕</span><strong>CHOOSE A FILE</strong><small>SHA-256 · Calculated on your device</small></label>
+                <input id="hashInput" class="sr-only" type="file" />
+                <div class="hash-output" id="hashOutput" aria-live="polite">Your file hash will appear here.</div>
+                <p class="window-note">This preview performs hashing locally when browser support is available.</p>
+              </section>
+              <section class="preview-panel" id="preview-phrase" role="tabpanel" aria-labelledby="tab-phrase" hidden>
+                <p class="window-label">PASSPHRASE / LOCAL MINI-DEMO</p>
+                <label for="phraseInput" class="phrase-label">TRY A MADE-UP EXAMPLE, NOT A REAL PASSWORD</label>
+                <div class="preview-form"><input id="phraseInput" type="text" placeholder="e.g. comet river velvet" autocomplete="off" spellcheck="false" /></div>
+                <div class="phrase-bars" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+                <p class="phrase-feedback" id="phraseFeedback" aria-live="polite">Add a fictional phrase to see a basic length indicator.</p>
+                <p class="window-note">Educational length feedback only; not a security guarantee. Input isn't stored or sent anywhere.</p>
+              </section>
+            </div>
+            <div class="window-footer"><span><span class="green-led"></span> LOCAL-FIRST</span><span>HTML · CSS · BROWSER APIS</span></div>
+          </div>
+          <div class="project-visual-caption"><span>FIG. 002 — INTERACTIVE FEATURE PREVIEW</span><span>THREE MINI-EXPERIMENTS ↗</span></div>
+        </div>
+      </article>
+
+
+      <article class="redstone-project reveal" aria-labelledby="redstoneTitle" id="redstone">
+        <div class="redstone-copy">
+          <div class="redstone-topline"><span class="redstone-status"><span class="pulse-square"></span> IN DEVELOPMENT</span><span class="project-index">PROJECT / 002</span></div>
+          <p class="project-category">MINECRAFT × DIGITAL LOGIC · EXPLORATION</p>
+          <h3 id="redstoneTitle">Redstone<br><span>Logic Lab<span class="project-period">.</span></span></h3>
+          <p class="project-description">An experiment in teaching digital logic through Minecraft's redstone-inspired circuits. The repository is just getting started; this interactive gate demo previews the idea, not the completed project.</p>
+          <div class="redstone-tags"><span>LOGIC GATES</span><span>REDSTONE</span><span>LEARNING BY BUILDING</span></div>
+          <a class="project-link" href="https://github.com/N4mitNotFound/RedStone-Logic-Lab" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="redstone-visual">
+          <div class="redstone-board" id="logicBoard">
+            <div class="board-top"><span><i class="board-led"></i> LOGIC LAB // CONCEPT DEMO</span><span>EXP. 002</span></div>
+            <div class="board-title"><strong>BUILD THE SIGNAL.</strong><span>Switch inputs. Watch the output.</span></div>
+            <div class="gate-select" role="group" aria-label="Choose logic gate">
+              <button type="button" class="gate-button active" data-gate="AND" aria-pressed="true">AND</button>
+              <button type="button" class="gate-button" data-gate="OR" aria-pressed="false">OR</button>
+              <button type="button" class="gate-button" data-gate="XOR" aria-pressed="false">XOR</button>
+            </div>
+            <div class="circuit" aria-label="Interactive logic-gate concept simulation">
+              <div class="circuit-inputs"><button class="circuit-switch" type="button" id="inputA" aria-pressed="true"><small>INPUT / A</small><strong id="aValue">1</strong><span class="switch-indicator"></span></button><button class="circuit-switch" type="button" id="inputB" aria-pressed="false"><small>INPUT / B</small><strong id="bValue">0</strong><span class="switch-indicator"></span></button></div>
+              <div class="wire-pair" aria-hidden="true"><i id="wireA" class="signal-on"></i><i id="wireB"></i></div>
+              <div class="logic-gate" id="gateShape" aria-hidden="true"><span id="gateLabel">&amp;</span></div>
+              <div class="wire-output" id="wireOutput" aria-hidden="true"></div>
+              <div class="circuit-output" id="circuitOutput" role="status" aria-live="polite"><small>OUTPUT / Q</small><strong id="qValue">0</strong><span class="output-light"></span></div>
+            </div>
+            <div class="board-result"><span id="logicExpression">A · B = 0</span><span id="logicNote">AND = BOTH INPUTS ON</span></div>
+            <div class="board-foot"><span>00 / 01 / 10 / 11</span><span>SIMULATED SIGNAL · NO MINECRAFT REQUIRED</span></div>
+          </div>
+          <p class="board-caption">FIG. 003 — AN INTERACTIVE IDEA FOR THE FUTURE LAB</p>
+        </div>
+      </article>
+      <div class="coming-next reveal"><div class="coming-icon" aria-hidden="true">↗</div><div><span class="overline">THE NEXT EXPERIMENT</span><h3>The next experiment starts with one idea.</h3><p>Cyber Toolkit is on GitHub. Redstone Logic Lab is in development. More to come.</p></div><span class="coming-stamp">NEXT SIGNAL / 003+</span></div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="aboutTitle">
+      <div class="frame">
+        <div class="section-kicker reveal"><span class="section-number">02 / ABOUT</span><span class="section-route">~/whoami</span></div>
+        <div class="about-grid">
+          <div class="about-title-col reveal"><p class="overline">A QUICK INTRODUCTION</p><h2 id="aboutTitle">No big titles.<br>Just <em>big curiosity.</em></h2><div class="about-decoration" aria-hidden="true"><div class="glyph-star">✳</div><span>WORK IN PROGRESS,<br>BY DESIGN.</span></div></div>
+          <div class="about-copy-col reveal"><div class="quote-mark" aria-hidden="true">“</div><p class="about-lead">I'm Namit. I like the part where <span>“I have no idea”</span> turns into <span>“wait, I get it.”</span></p><p>I'm a first-year Electronics & Communication Engineering student, interested in exploring cybersecurity and the systems behind everyday technology.</p><p>Right now, I'm building my foundations in programming and electronics. I prefer honest progress over impressive-sounding labels—and projects that teach me something real.</p><div class="about-stats"><div><span>01</span><small>YEAR OF ENGINEERING</small></div><div><span>04</span><small>LANGUAGES I'M LEARNING / USING</small></div><div><span>∞</span><small>QUESTIONS LEFT TO ASK</small></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section toolkit-section frame" id="toolkit" aria-labelledby="toolkitTitle">
+      <div class="section-kicker reveal"><span class="section-number">03 / TOOLKIT & INTERESTS</span><span class="section-route">~/skills && ~/curiosity</span></div>
+      <div class="section-heading reveal"><div><p class="overline">CURRENTLY IN THE TOOLBOX</p><h2 id="toolkitTitle">Four languages.<br><em>A thousand questions.</em></h2></div><p class="section-heading-aside">Only the languages I currently know. The rest is a work in progress.</p></div>
+      <div class="skill-list reveal" aria-label="Programming languages and technologies">
+        <div class="skill-row"><span class="skill-index">01</span><span class="skill-name">HTML</span><span class="skill-desc">STRUCTURE / WEB</span><span class="skill-arrow" aria-hidden="true">↗</span></div>
+        <div class="skill-row"><span class="skill-index">02</span><span class="skill-name">CSS</span><span class="skill-desc">STYLING / WEB</span><span class="skill-arrow" aria-hidden="true">↗</span></div>
+        <div class="skill-row"><span class="skill-index">03</span><span class="skill-name">Python</span><span class="skill-desc">PROGRAMMING</span><span class="skill-arrow" aria-hidden="true">↗</span></div>
+        <div class="skill-row"><span class="skill-index">04</span><span class="skill-name">C</span><span class="skill-desc">FUNDAMENTALS</span><span class="skill-arrow" aria-hidden="true">↗</span></div>
+      </div>
+      <div class="interest-row reveal"><div><span class="overline">ON MY RADAR</span><p>Things I want to understand better.</p></div><div class="interest-tags"><span><i></i> CYBERSECURITY</span><span><i></i> ELECTRONICS</span><span><i></i> HOW SYSTEMS WORK</span></div></div>
+    </section>
+
+    <section class="theme-section" aria-labelledby="themeTitle" id="appearance">
+      <div class="frame mode-layout reveal">
+        <div class="mode-description"><span class="overline">CONTROL THE ATMOSPHERE / 04</span><h2 id="themeTitle">One portfolio.<br><em>Two moods.</em></h2><p>Switch between midnight glow and an editorial paper-white canvas. Everything follows the theme.</p></div>
+        <div class="mode-chooser" role="group" aria-label="Website appearance">
+          <button class="mode-card selected" type="button" data-theme-choice="dark" aria-pressed="true"><span class="mode-card-art dark-art" aria-hidden="true"><i class="mode-art-ring"></i><b>NC</b><span>NOCTURNE</span></span><strong>01 / DARK</strong><small>VIOLET AFTER HOURS</small><span class="mode-select-icon" aria-hidden="true">↗</span></button>
+          <button class="mode-card" type="button" data-theme-choice="light" aria-pressed="false"><span class="mode-card-art light-art" aria-hidden="true"><i class="mode-art-ring"></i><b>NC</b><span>DAYBREAK</span></span><strong>02 / LIGHT</strong><small>INK ON WARM PAPER</small><span class="mode-select-icon" aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section frame" id="contact" aria-labelledby="contactTitle">
+      <div class="section-kicker reveal"><span class="section-number">04 / CONTACT</span><span class="section-route">~/connect</span></div>
+      <div class="contact-heading reveal"><p class="overline">THE LINE IS OPEN</p><h2 id="contactTitle">LET'S<br><em>CONNECT<span class="contact-dot">.</span></em></h2><p>Want to talk code, technology, or an idea worth exploring? Find me here.</p></div>
+      <div class="contact-links reveal"><a href="https://github.com/N4mitNotFound" target="_blank" rel="noopener noreferrer"><span class="contact-link-index">01</span><span>GITHUB<small>Explore my repositories</small></span><span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/namit-chougale-b14031448/" target="_blank" rel="noopener noreferrer"><span class="contact-link-index">02</span><span>LINKEDIN<small>Connect professionally</small></span><span aria-hidden="true">↗</span></a></div>
+      <div class="end-message reveal" aria-hidden="true">// END OF PAGE. BEGIN THE NEXT IDEA <span class="cursor-line">_</span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="frame footer-inner"><a class="brand footer-brand" href="#top"><span class="footer-nc">NC<span>.</span></span></a><span>DESIGNED & BUILT TO KEEP LEARNING · NAMIT CHOUGALE</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+  <noscript><div class="noscript-message">The animated code loop and interactive previews need JavaScript. All portfolio content and links remain available.</div></noscript>
+</body>
+</html>
